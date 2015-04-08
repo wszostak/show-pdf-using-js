@@ -1,6 +1,7 @@
 {
   "name": "PdfPOC",
   "version": "0.0.0",
+  "repository": "https://github.com/wszostak/show-pdf-using-js.git",
   "dependencies": {
     "express": "^4.12.3"
   },
