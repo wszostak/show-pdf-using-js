@@ -5,6 +5,6 @@
     "express": "^4.12.3"
   },
   "scripts": {
-  	"postinstall": "npm start"
+    "postinstall": "bower -s install && npm start"
   }
 }
