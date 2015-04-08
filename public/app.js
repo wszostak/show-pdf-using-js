@@ -7,7 +7,6 @@
         		var blob = new Blob([data], {type: 'application/pdf'});
         		var url = URL.createObjectURL(blob);
         		$scope.content = $sce.trustAsResourceUrl(url);
-        		// console.log($scope.content);
         	});
         };
     }])

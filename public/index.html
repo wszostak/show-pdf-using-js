@@ -12,10 +12,10 @@
 </head>
 <body ng-app="PdfPOC" ng-controller="ShowPdfController">
 
-    <p><a href="#" ng-click="showPdf()">Pokaż PDF</a></p>
+    <p><a href="#" ng-click="showPdf()">Show PDF</a></p>
 	
 	<object class="pdfPreview" ng-show="content" data="{{content}}" type="application/pdf">
-		Brak plugina do PDF?
+		No PDF reader plugin?
 	</object>        
 </body>
 
